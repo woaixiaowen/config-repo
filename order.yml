@@ -7,7 +7,7 @@ spring:
     password: zhouwen
     url: jdbc:mysql://localhost/mysql?characterEncoding=utf-8&useSSL=false
   jpa:
-    show-sql: flase
+    show-sql: true
 eureka:
   client:
     service-url:
